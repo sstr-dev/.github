@@ -17,6 +17,8 @@
 |-----------------------------|------------------------------------------------------------------|
 | [`renovate-config`](https://github.com/sstr-dev/renovate-config) | Shared Renovate presets for containers, Helm, Terraform, etc. |
 | [`containers`](https://github.com/sstr-dev/containers)  | Apps and base images for my infrastructure and homelab          |
+| `home-assistant-config`     | Personal Home Assistant automations, scripts, dashboards         |
+| `3d-printer-config`         | Configuration for Klipper, Mainsail, firmware tuning, etc.       |
 | _More soon_                | GitHub Actions, shell tools, deployment templates, etc.          |
 
 ---
@@ -31,6 +33,17 @@ This org is primarily personal, but feel free to:
 - 🤝 PRs welcome on public repos
 
 Everything is designed to be understandable, extendable, and easy to rip out.
+
+---
+
+## 📚 Resources
+
+- [Renovate Docs](https://docs.renovatebot.com/)
+- [Klipper Firmware](https://www.klipper3d.org/)
+- [Home Assistant](https://www.home-assistant.io/)
+- [Conventional Commits](https://www.conventionalcommits.org/)
+- [My Projects](https://github.com/sstr-dev?tab=repositories)
+- [My Containers](https://github.com/sstr-dev?tab=packages&repo_name=containers)
 
 ---
 
