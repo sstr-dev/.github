@@ -1,10 +1,10 @@
-## Hi there
+## Welcome to sstr-dev
 
-Welcome to `sstr-dev`.
+`sstr-dev` is where I keep the code, configuration, and experiments behind my homelab and self-hosted platform.
 
-This is the place where I collect the code, configs, and experiments behind my homelab and self-hosted platform. It includes infrastructure, containers, automation, and a growing set of reusable bits that I use to run and evolve my setup.
+You’ll find infrastructure as code, GitOps, containers, automation, and the operational tooling needed to run and evolve a real setup over time.
 
-A lot of this started as “build it for myself first”, but I try to keep things clean enough that others can copy ideas, adapt parts, or use the repos as reference.
+Most projects are built for my own use first, but in a way that others can still learn from, reuse, or adapt.
 
 ---
 
@@ -12,7 +12,7 @@ A lot of this started as “build it for myself first”, but I try to keep thin
 
 | Project | Description |
 |---|---|
-| [`infrastructure`](https://github.com/sstr-dev/infrastructure) | My homelab and platform infrastructure repo with Talos, Flux, OpenTofu/Terraform, and supporting automation |
+| [`infrastructure`](https://github.com/sstr-dev/infrastructure) | My main homelab and platform infrastructure repo with Talos, Flux, OpenTofu/Terraform, and supporting automation |
 | [`containers`](https://github.com/sstr-dev/containers) | Container images and app builds used across my setup |
 | [`renovate-config`](https://github.com/sstr-dev/renovate-config) | Shared Renovate presets for the tooling and repositories I use |
 | `home-assistant-config` | Home Assistant automations, scripts, dashboards, and smart home experiments |
@@ -69,4 +69,4 @@ Unless noted otherwise, projects here are MIT licensed.
 
 ---
 
-Use what helps, adapt what fits, and make it your own :)
+Use what helps, adapt what fits, and make it your own.
