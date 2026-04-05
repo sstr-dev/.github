@@ -1,57 +1,72 @@
-## Hi there 👋
+## Hi there
 
-<!--
+Welcome to `sstr-dev`.
 
-**Here are some ideas to get you started:**
+This is the place where I collect the code, configs, and experiments behind my homelab and self-hosted platform. It includes infrastructure, containers, automation, and a growing set of reusable bits that I use to run and evolve my setup.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
-
-## 🧩 What’s in Here?
-
-| Project                     | Description                                                      |
-|-----------------------------|------------------------------------------------------------------|
-| [`renovate-config`](https://github.com/sstr-dev/renovate-config) | Shared Renovate presets for containers, Helm, Terraform, etc. |
-| [`containers`](https://github.com/sstr-dev/containers)  | Apps and base images for my infrastructure and homelab          |
-| [`infrastructure`](https://github.com/sstr-dev/infrastructure) | GitOps-based setup using Flux, Terraform, and Ansible        |
-| `home-assistant-config`     | Personal Home Assistant automations, scripts, dashboards         |
-| `3d-printer-config`         | Configuration for Klipper, Mainsail, firmware tuning, etc.       |
-| _More soon_                | GitHub Actions, shell tools, deployment templates, etc.          |
+A lot of this started as “build it for myself first”, but I try to keep things clean enough that others can copy ideas, adapt parts, or use the repos as reference.
 
 ---
 
-## 🌱 Contributing / Using
+## What’s in Here?
 
-This org is primarily personal, but feel free to:
+| Project | Description |
+|---|---|
+| [`infrastructure`](https://github.com/sstr-dev/infrastructure) | My homelab and platform infrastructure repo with Talos, Flux, OpenTofu/Terraform, and supporting automation |
+| [`containers`](https://github.com/sstr-dev/containers) | Container images and app builds used across my setup |
+| [`renovate-config`](https://github.com/sstr-dev/renovate-config) | Shared Renovate presets for the tooling and repositories I use |
+| `home-assistant-config` | Home Assistant automations, scripts, dashboards, and smart home experiments |
+| `3d-printer-config` | Klipper, Mainsail, tuning, firmware settings, and 3D printer configuration |
+| _More soon_ | Smaller tools, helper scripts, workflow experiments, and infrastructure side projects |
+ 
+---
 
-- 📎 Copy configs for your own use
-- 🧪 Fork and improve setups
-- 🐛 Open issues for ideas, bugs, or questions
-- 🤝 PRs welcome on public repos
+## What You Can Expect
 
-Everything is designed to be understandable, extendable, and easy to rip out.
+Most repos here revolve around a few recurring themes:
+
+- self-hosting
+- GitOps and infrastructure as code
+- containers and automation
+- homelab operations
+- practical setups over polished marketing
+
+I like systems that are understandable, rebuildable, and easy to change without starting from scratch.
 
 ---
 
-## 📚 Resources
+## Reuse / Contributing
 
-- [Renovate Docs](https://docs.renovatebot.com/)
-- [Klipper Firmware](https://www.klipper3d.org/)
-- [Home Assistant](https://www.home-assistant.io/)
+This org is mainly personal, but public repos are here to be useful.
+
+Feel free to:
+
+- borrow configs and ideas
+- fork things for your own homelab
+- open issues if something is unclear or broken
+- send PRs to public repos if you want to improve something
+
+If something here helps you avoid a few hours of trial and error, that is already a win.
+
+---
+
+## Resources
+
+- [All repositories](https://github.com/sstr-dev?tab=repositories)
+- [Container packages](https://github.com/sstr-dev?tab=packages&repo_name=containers)
 - [FluxCD](https://fluxcd.io/)
-- [Terraform](https://www.terraform.io/)
+- [OpenTofu](https://opentofu.org/)
 - [Ansible](https://www.ansible.com/)
-- [Conventional Commits](https://www.conventionalcommits.org/)
-- [My Projects](https://github.com/sstr-dev?tab=repositories)
-- [My Containers](https://github.com/sstr-dev?tab=packages&repo_name=containers)
+- [Home Assistant](https://www.home-assistant.io/)
+- [Klipper](https://www.klipper3d.org/)
+- [Renovate](https://docs.renovatebot.com/)
 
 ---
 
-## ⚖️ License
+## License
 
-Everything is MIT licensed unless otherwise stated.  
-Use it, fork it, improve it — no strings attached.
+Unless noted otherwise, projects here are MIT licensed.
+
+---
+
+Use what helps, adapt what fits, and make it your own :)
