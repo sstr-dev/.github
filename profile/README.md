@@ -15,6 +15,7 @@ Most projects are built for my own use first, but in a way that others can still
 | [`infrastructure`](https://github.com/sstr-dev/infrastructure) | My main homelab and platform infrastructure repo with Talos, Flux, OpenTofu/Terraform, and supporting automation |
 | [`containers`](https://github.com/sstr-dev/containers) | Container images and app builds used across my setup |
 | [`renovate-config`](https://github.com/sstr-dev/renovate-config) | Shared Renovate presets for the tooling and repositories I use |
+| [`4d-printer-toolkit`](https://github.com/sstr-dev/3d-printer-toolkit) | 3D printer toolkit for my printers |
 | `home-assistant-config` | Home Assistant automations, scripts, dashboards, and smart home experiments |
 | `3d-printer-config` | Klipper, Mainsail, tuning, firmware settings, and 3D printer configuration |
 | _More soon_ | Smaller tools, helper scripts, workflow experiments, and infrastructure side projects |
